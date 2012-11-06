@@ -10,4 +10,6 @@
 
 @interface cloudmineViewController : UIViewController
 
+@property (weak,nonatomic) IBOutlet UILabel *statusLabel;
+
 @end
